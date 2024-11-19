@@ -1,70 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dream Homes Real Estate</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="/style.css">
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#home"><i class="fas fa-home"></i> Dream Homes</a>
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#best-deals">Best Deals</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#latest">Latest</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream Homes Real Estate</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><i class="fas fa-home"></i> Dream Homes</a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#best-deals">Best Deals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#latest">Latest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="swiper hero-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide hero-slide"
+          style="background-image: url('https://plus.unsplash.com/premium_photo-1663089688180-444ff0066e5d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+          <div class="hero-content">
+            <h1>Find Your Dream Home</h1>
+            <p>Luxury Properties at Affordable Prices</p>
+            <a href="#latest" class="btn btn-primary btn-lg">View Properties</a>
+          </div>
+        </div>
+        <div class="swiper-slide hero-slide"
+          style="background-image: url('https://images.unsplash.com/photo-1605146769289-440113cc3d00?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+          <div class="hero-content">
+            <h1>Premium Locations</h1>
+            <p>Exclusive Properties in Prime Areas</p>
+            <a href="#latest" class="btn btn-primary btn-lg">Explore Now</a>
+          </div>
+        </div>
+        <div class="swiper-slide hero-slide"
+          style="background-image: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+          <div class="hero-content">
+            <h1>Expert Guidance</h1>
+            <p>Professional Real Estate Consultants</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Contact Us</a>
+          </div>
         </div>
       </div>
-    </nav>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-      <div class="swiper hero-slider">
+  <!-- Who We Are Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <img
+            src="https://images.pexels.com/photos/4161619/pexels-photo-4161619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="About Us" class="img-fluid rounded shadow-lg">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title">Who We Are</h2>
+          <div class="section-divider"></div>
+          <p class="lead">Your Trusted Real Estate Partner Since 1970</p>
+          <p>With over 50 years of experience in the real estate market, Dream Homes has been helping families find
+            their perfect homes. Our commitment to excellence and customer satisfaction has made us the leading real
+            estate agency in the region.</p>
+          <div class="row mt-4">
+            <div class="col-6">
+              <div class="achievement">
+                <i class="fas fa-home"></i>
+                <h3>1000+</h3>
+                <p>Properties Sold</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="achievement">
+                <i class="fas fa-users"></i>
+                <h3>500+</h3>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Deals Section -->
+  <section id="best-deals" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Best Deals</h2>
+      <div class="section-divider mx-auto"></div>
+      <div class="row g-4 mt-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="property-card">
+            <div class="property-badge">Hot Deal</div>
+            <img
+              src="https://images.pexels.com/photos/5029310/pexels-photo-5029310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Property" class="img-fluid">
+            <div class="property-details">
+              <h3>Luxury Villa</h3>
+              <p class="price">$750,000 <span class="old-price">$850,000</span></p>
+              <div class="features">
+                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                <span><i class="fas fa-bath"></i> 3 Baths</span>
+                <span><i class="fas fa-ruler-combined"></i> 2,500 sqft</span>
+              </div>
+              <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                Agent</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="property-card">
+            <div class="property-badge">Sale</div>
+            <img
+              src="https://images.pexels.com/photos/6970056/pexels-photo-6970056.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Property" class="img-fluid">
+            <div class="property-details">
+              <h3>Modern Apartment</h3>
+              <p class="price">$320,000 <span class="old-price">$375,000</span></p>
+              <div class="features">
+                <span><i class="fas fa-bed"></i> 2 Beds</span>
+                <span><i class="fas fa-bath"></i> 2 Baths</span>
+                <span><i class="fas fa-ruler-combined"></i> 1,200 sqft</span>
+              </div>
+              <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                Agent</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="property-card">
+            <div class="property-badge">New</div>
+            <img
+              src="https://images.pexels.com/photos/3995921/pexels-photo-3995921.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Property" class="img-fluid">
+            <div class="property-details">
+              <h3>Family Home</h3>
+              <p class="price">$580,000 <span class="old-price">$625,000</span></p>
+              <div class="features">
+                <span><i class="fas fa-bed"></i> 3 Beds</span>
+                <span><i class="fas fa-bath"></i> 2.5 Baths</span>
+                <span><i class="fas fa-ruler-combined"></i> 2,000 sqft</span>
+              </div>
+              <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                Agent</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Listings Section -->
+  <section id="latest" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center">Latest Listings</h2>
+      <div class="section-divider mx-auto"></div>
+      <div class="swiper latest-slider mt-4">
         <div class="swiper-wrapper">
-          <div class="swiper-slide hero-slide" style="background-image: url('https://placehold.co/1920x1080/1')">
-            <div class="hero-content">
-              <h1>Find Your Dream Home</h1>
-              <p>Luxury Properties at Affordable Prices</p>
-              <a href="#latest" class="btn btn-primary btn-lg">View Properties</a>
+          <div class="swiper-slide">
+            <div class="property-card">
+              <img
+                src="https://images.pexels.com/photos/2468773/pexels-photo-2468773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Property" class="img-fluid">
+              <div class="property-details">
+                <h3>Beach House</h3>
+                <p class="price">$920,000</p>
+                <div class="features">
+                  <span><i class="fas fa-bed"></i> 5 Beds</span>
+                  <span><i class="fas fa-bath"></i> 4 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 3,200 sqft</span>
+                </div>
+                <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                  Agent</button>
+              </div>
             </div>
           </div>
-          <div class="swiper-slide hero-slide" style="background-image: url('https://placehold.co/1920x1080/2')">
-            <div class="hero-content">
-              <h1>Premium Locations</h1>
-              <p>Exclusive Properties in Prime Areas</p>
-              <a href="#latest" class="btn btn-primary btn-lg">Explore Now</a>
-            </div>
-          </div>
-          <div class="swiper-slide hero-slide" style="background-image: url('https://placehold.co/1920x1080/3')">
-            <div class="hero-content">
-              <h1>Expert Guidance</h1>
-              <p>Professional Real Estate Consultants</p>
-              <a href="#contact" class="btn btn-primary btn-lg">Contact Us</a>
+          <div class="swiper-slide">
+            <div class="property-card">
+              <img
+                src="https://images.pexels.com/photos/17399289/pexels-photo-17399289/free-photo-of-top-of-a-luxurious-modern-residential-building-with-a-penthouse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Property" class="img-fluid">
+              <div class="property-details">
+                <h3>City Penthouse</h3>
+                <p class="price">$1,250,000</p>
+                <div class="features">
+                  <span><i class="fas fa-bed"></i> 3 Beds</span>
+                  <span><i class="fas fa-bath"></i> 3.5 Baths</span>
+                  <span><i class="fas fa-ruler-combined"></i> 2,800 sqft</span>
+                </div>
+                <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                  Agent</button>
+              </div>
             </div>
           </div>
         </div>
@@ -72,276 +232,147 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Who We Are Section -->
-    <section id="about" class="py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <img src="https://placehold.co/600x400" alt="About Us" class="img-fluid rounded shadow-lg">
-          </div>
-          <div class="col-lg-6">
-            <h2 class="section-title">Who We Are</h2>
-            <div class="section-divider"></div>
-            <p class="lead">Your Trusted Real Estate Partner Since 1970</p>
-            <p>With over 50 years of experience in the real estate market, Dream Homes has been helping families find their perfect homes. Our commitment to excellence and customer satisfaction has made us the leading real estate agency in the region.</p>
-            <div class="row mt-4">
-              <div class="col-6">
-                <div class="achievement">
-                  <i class="fas fa-home"></i>
-                  <h3>1000+</h3>
-                  <p>Properties Sold</p>
-                </div>
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Client Testimonials</h2>
+      <div class="section-divider mx-auto"></div>
+      <div class="swiper testimonial-slider mt-4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-img">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt="Client" class="rounded-circle">
               </div>
-              <div class="col-6">
-                <div class="achievement">
-                  <i class="fas fa-users"></i>
-                  <h3>500+</h3>
-                  <p>Happy Clients</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Best Deals Section -->
-    <section id="best-deals" class="py-5 bg-light">
-      <div class="container">
-        <h2 class="section-title text-center">Best Deals</h2>
-        <div class="section-divider mx-auto"></div>
-        <div class="row g-4 mt-4">
-          <div class="col-md-6 col-lg-4">
-            <div class="property-card">
-              <div class="property-badge">Hot Deal</div>
-              <img src="https://placehold.co/600x400" alt="Property" class="img-fluid">
-              <div class="property-details">
-                <h3>Luxury Villa</h3>
-                <p class="price">$750,000 <span class="old-price">$850,000</span></p>
-                <div class="features">
-                  <span><i class="fas fa-bed"></i> 4 Beds</span>
-                  <span><i class="fas fa-bath"></i> 3 Baths</span>
-                  <span><i class="fas fa-ruler-combined"></i> 2,500 sqft</span>
-                </div>
-                <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Agent</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="property-card">
-              <div class="property-badge">Sale</div>
-              <img src="https://placehold.co/600x400" alt="Property" class="img-fluid">
-              <div class="property-details">
-                <h3>Modern Apartment</h3>
-                <p class="price">$320,000 <span class="old-price">$375,000</span></p>
-                <div class="features">
-                  <span><i class="fas fa-bed"></i> 2 Beds</span>
-                  <span><i class="fas fa-bath"></i> 2 Baths</span>
-                  <span><i class="fas fa-ruler-combined"></i> 1,200 sqft</span>
-                </div>
-                <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Agent</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="property-card">
-              <div class="property-badge">New</div>
-              <img src="https://placehold.co/600x400" alt="Property" class="img-fluid">
-              <div class="property-details">
-                <h3>Family Home</h3>
-                <p class="price">$580,000 <span class="old-price">$625,000</span></p>
-                <div class="features">
-                  <span><i class="fas fa-bed"></i> 3 Beds</span>
-                  <span><i class="fas fa-bath"></i> 2.5 Baths</span>
-                  <span><i class="fas fa-ruler-combined"></i> 2,000 sqft</span>
-                </div>
-                <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Agent</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Latest Listings Section -->
-    <section id="latest" class="py-5">
-      <div class="container">
-        <h2 class="section-title text-center">Latest Listings</h2>
-        <div class="section-divider mx-auto"></div>
-        <div class="swiper latest-slider mt-4">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="property-card">
-                <img src="https://placehold.co/600x400" alt="Property" class="img-fluid">
-                <div class="property-details">
-                  <h3>Beach House</h3>
-                  <p class="price">$920,000</p>
-                  <div class="features">
-                    <span><i class="fas fa-bed"></i> 5 Beds</span>
-                    <span><i class="fas fa-bath"></i> 4 Baths</span>
-                    <span><i class="fas fa-ruler-combined"></i> 3,200 sqft</span>
-                  </div>
-                  <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Agent</button>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="property-card">
-                <img src="https://placehold.co/600x400" alt="Property" class="img-fluid">
-                <div class="property-details">
-                  <h3>City Penthouse</h3>
-                  <p class="price">$1,250,000</p>
-                  <div class="features">
-                    <span><i class="fas fa-bed"></i> 3 Beds</span>
-                    <span><i class="fas fa-bath"></i> 3.5 Baths</span>
-                    <span><i class="fas fa-ruler-combined"></i> 2,800 sqft</span>
-                  </div>
-                  <button class="btn btn-primary w-100 mt-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Agent</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="py-5 bg-light">
-      <div class="container">
-        <h2 class="section-title text-center">Client Testimonials</h2>
-        <div class="section-divider mx-auto"></div>
-        <div class="swiper testimonial-slider mt-4">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <div class="testimonial-img">
-                  <img src="https://placehold.co/150x150" alt="Client" class="rounded-circle">
-                </div>
-                <div class="testimonial-content">
-                  <p>"Dream Homes helped me find the perfect house for my family. Their service was exceptional!"</p>
-                  <div class="testimonial-author">
-                    <h4>John Smith</h4>
-                    <p>Happy Homeowner</p>
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <div class="testimonial-img">
-                  <img src="https://placehold.co/150x150" alt="Client" class="rounded-circle">
-                </div>
-                <div class="testimonial-content">
-                  <p>"Professional team, smooth process, and great results. Highly recommended!"</p>
-                  <div class="testimonial-author">
-                    <h4>Sarah Johnson</h4>
-                    <p>Property Investor</p>
-                    <div class="rating">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
+              <div class="testimonial-content">
+                <p>"Dream Homes helped me find the perfect house for my family. Their service was exceptional!"</p>
+                <div class="testimonial-author">
+                  <h4>John Smith</h4>
+                  <p>Happy Homeowner</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer id="contact" class="footer bg-dark text-white py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <h3><i class="fas fa-home"></i> Dream Homes</h3>
-            <p>Your trusted partner in finding the perfect property. With years of experience and dedication, we help make your dream home a reality.</p>
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-img">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt="Client" class="rounded-circle">
+              </div>
+              <div class="testimonial-content">
+                <p>"Professional team, smooth process, and great results. Highly recommended!"</p>
+                <div class="testimonial-author">
+                  <h4>Sarah Johnson</h4>
+                  <p>Property Investor</p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <h3>Quick Links</h3>
-            <ul class="footer-links">
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#best-deals">Best Deals</a></li>
-              <li><a href="#latest">Latest Listings</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 mb-4">
-            <h3>Contact Info</h3>
-            <ul class="contact-info">
-              <li><i class="fas fa-map-marker-alt"></i> 123 Real Estate Ave, City, State 12345</li>
-              <li><i class="fas fa-phone"></i> (555) 123-4567</li>
-              <li><i class="fas fa-envelope"></i> info@dreamhomes.com</li>
-              <li><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM</li>
-            </ul>
-          </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
-      <div class="footer-bottom">
-        <div class="container text-center mt-4">
-          <p>&copy; 2024 Dream Homes. All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
+    </div>
+  </section>
 
-    <!-- Contact Modal -->
-    <div class="modal fade" id="contactModal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Contact Agent</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+  <!-- Footer -->
+  <footer id="contact" class="footer bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h3><i class="fas fa-home"></i> Dream Homes</h3>
+          <p>Your trusted partner in finding the perfect property. With years of experience and dedication, we help make
+            your dream home a reality.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
           </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required>
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
-              </div>
-              <div class="mb-3">
-                <label for="phone" class="form-label">Phone</label>
-                <input type="tel" class="form-control" id="phone">
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary w-100">Send Message</button>
-            </form>
-          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#best-deals">Best Deals</a></li>
+            <li><a href="#latest">Latest Listings</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h3>Contact Info</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Real Estate Ave, City, State 12345</li>
+            <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@dreamhomes.com</li>
+            <li><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM</li>
+          </ul>
         </div>
       </div>
     </div>
+    <div class="footer-bottom">
+      <div class="container text-center mt-4">
+        <p>&copy; 2024 Dream Homes. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/main.js"></script>
-  </body>
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Agent</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="tel" class="form-control" id="phone">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/main.js"></script>
+</body>
+
 </html>
