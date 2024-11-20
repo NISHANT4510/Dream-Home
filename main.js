@@ -14,7 +14,7 @@ const heroSlider = new Swiper('.hero-slider', {
     prevEl: '.swiper-button-prev',
   },
 });
-
+//
 // Initialize Latest Properties Slider
 const latestSlider = new Swiper('.latest-slider', {
   slidesPerView: 1,
